@@ -107,8 +107,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-legend-of-camp-utah" id="toc-the-legend-of-camp-utah" class="nav-link active" data-scroll-target="#the-legend-of-camp-utah">The Legend of Camp Utah</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -132,9 +138,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<section id="the-legend-of-camp-utah" class="level1">
+<h1>The Legend of Camp Utah</h1>
+<p>High above the world, at the perilous height of 121 blocks, stands Camp Utah, a mountain shrouded in mystery and danger. For generations, it was whispered about in fearful tones—its jagged cliffs and shadowed caverns had claimed too many lives for it to be mere coincidence. The mountain’s depths were said to be cursed, filled with treacherous caves that twisted endlessly into the earth, swallowing entire expeditions without a trace. Some spoke of an ancient force dwelling within, a presence that did not welcome the living.</p>
+<p>Yet despite its fearsome reputation, a new settlement has risen atop its peak. A band of pioneers, undeterred by the tales of doom, have set their sights on taming the mountain. They call themselves the Rag-tag Dickeries, a determined group of survivors seeking a fresh start. Where others saw ruin, they saw opportunity—a place where they could carve out a home, fortify the cliffs, and mine the depths for untold riches.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -227,7 +237,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/teuston\.github\.io\/camp-utah\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

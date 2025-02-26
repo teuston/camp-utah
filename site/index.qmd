@@ -6,5 +6,5 @@ Welcome to Camp Utah!
 
 ## Interactive Server Map
 ```{=html}
-<iframe width="780" height="500" src="http://teuston.servebeer.com:8123/" title="Squaremap Embedded"></iframe>
+<iframe width="780" height="500" src="http://localhost" title="Squaremap Embedded"></iframe>
 ```
